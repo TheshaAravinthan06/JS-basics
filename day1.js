@@ -1,6 +1,4 @@
-
-
-// Hoisting
+Hoisting
 console.log(num);
 let num= 25;
 
@@ -11,16 +9,16 @@ console.log(num);
 const num= 25;
 
 
-// Scope
+Scope
 
-// Function scope
+Function scope
 {
     let x =25
     console.log(x)
 }
 console.log(x)
 
-// Block scope
+Block scope
 {
     const x =25
     console.log(x)
